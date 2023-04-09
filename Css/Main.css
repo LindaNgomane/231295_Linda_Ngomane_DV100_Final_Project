@@ -29,7 +29,7 @@ nav li{
     color: white;
     margin-right: 40px;
     padding-left: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
 }
 
 input{
@@ -55,7 +55,7 @@ nav p{
 }
 nav h1{
     margin-left: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     font-size: 200px;
     color: white;
     
@@ -63,7 +63,7 @@ nav h1{
 
 nav h2{
     margin-left: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     font-size: 50px;
     color: white;
 }
@@ -83,7 +83,7 @@ nav h2{
 .text h2{
     padding-left: 50px;
     padding-top: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
 }
 
 .buttonplay:hover{
@@ -110,7 +110,7 @@ nav h2{
 .text2 h2{
     padding-left: 21px;
     padding-top: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
 }
 
 .buttonplay2:hover{
@@ -159,13 +159,13 @@ z-index: 2;
     opacity: 0.7;
     padding-left: 140px;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     padding-top: 20px;
 }
 
 .colbox2 b{
     font-size: 27px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
 }
 
 .colbox2 img{
@@ -191,55 +191,708 @@ z-index: 2;
 
 .text3{
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     margin-top: 80px;
     margin-left: 150px;
 }
 
-.cover{
-    margin-top: 30px;
+.albumcover{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/21\ Savage_Offset_Metro\ Boomin_Without\ Warning.png");
+    background-position: center;
+    background-size: cover;
     margin-left: 140px;
-}
-
-.cover img{
-    width: 250px;
-}
-
-.cover2{
     margin-top: 30px;
-    margin-left: -50px;
 }
 
+.albumcover img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
 
-.cover2 img{
+.overlay{
     width: 250px;
-}
-
-.cover3{
-    margin-top: 30px;
-    margin-left: -250px;
-}
-
-
-.cover3 img{
-    width: 250px;
-}
-
-.cover4{
-    margin-top: 30px;
-    margin-left:1080px;
-    margin-top: -250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
     
 }
 
-
-.cover4 img{
-    width: 250px;
+.overlay:hover{
+    cursor: pointer;
+    opacity: 1;
 }
+
+.linelement{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+  
+}
+
+.linelement h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover2{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/ab67616d0000b2737028679269dc6a5a29ce8f36.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.albumcover2 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay2{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay2:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement2{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover3{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/downloa\ 2.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 750px;
+    margin-top: -250px;
+}
+
+.albumcover3 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay2{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay2:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover4{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/download\ 3.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 1050px;
+    margin-top: -250px;
+}
+
+.albumcover4 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay2{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay2:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover5{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/download6.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.albumcover5 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay5{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay5:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover6{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/RRM\ 1.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.albumcover6 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay6{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay6:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover7{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/images..png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 420px;
+    margin-top: 50px;
+}
+
+.albumcover7 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay7{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay7:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover8{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/JID-The-Forever-Story.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 1040px;
+    margin-top: -250px;
+}
+
+.albumcover8 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay8{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay8:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover9{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/FE.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.albumcover9 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay9{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay9:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover10{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/download4.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 280px;
+    margin-top: 40px;
+}
+
+.albumcover10 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay10{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay10:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.albumcover11{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/Culture_II.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 420px;
+    margin-top: 40px;
+}
+
+.albumcover11 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay11{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay11:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+.albumcover12{
+    width: 250px;
+    height: 250px;
+    background-image: url("../Assets/dd8b5645ae83288fbb5481b24fd93968.1000x1000x1.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 1040px;
+    margin-top: -250px;
+}
+
+.albumcover12 img{
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.overlay12{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    
+}
+
+.overlay12:hover{
+    cursor: pointer;
+    opacity: 1;
+    
+}
+
+.linelement3{
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    margin-top: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+  
+}
+
+.linelement2 h5{
+    padding-top: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    
+}
+
+.linelement img{
+    margin-left: 200px;
+    margin-top: -120px;
+
+}
+
+.linelement img:hover{
+    background-color: red;
+    border-radius: 50%;
+}
+
+
 
 .text4{
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     margin-top: 80px;
     margin-left: 150px;
 }
@@ -282,7 +935,7 @@ footer img{
 
 .text5{
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     margin-left: 150px;
     margin-top: -30px;
 }
@@ -291,3 +944,7 @@ footer img{
     margin-left: 20px;
     margin-top: -75px;
 }
+
+
+
+
